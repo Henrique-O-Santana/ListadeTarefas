@@ -34,6 +34,12 @@ public class Main {
                     System.out.println("Qual tarefa deseja remover?");
                     tarefas.remove(sc.nextInt()-1);
                     break;
+                case 0:
+                    System.out.println("Volte sempre!");
+                    break;
+                default:
+                    System.out.println("Digite um numero valido");
+                    break;
             }
         }while (opc!=0);
     }
